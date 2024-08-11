@@ -1,0 +1,52 @@
+:root {
+    --green: #29AD02;
+    --white: #FAF9F6;
+    --yellow: #FCFB00;
+    --grey: #DCDCDC;
+    --black: #010101;
+  }
+  body{
+    background-color: var(--green);
+    font-family: Tahoma, sans serif;
+    color: var(--white);
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .brand{
+    font-weight: lighter;
+  }
+  .card{
+    position: relative;
+    background-color: var(--white);
+    margin: 0 auto;
+    width: 27rem;
+    height: 51.5rem;
+    border-radius: 3%;
+    box-shadow: 0.7rem 0.7rem var(--grey);
+    color: var(--black);
+    font-family: sans-serif;
+    font-size: normal;
+    padding: 0.2rem;
+  }
+  .input{
+   height: 2.3rem;
+   border-radius: 1rem;
+   text-align: center;
+  }
+  .button{
+    height: 2.3rem;
+    width: 6rem;
+    border-radius: 1rem;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .starwarsID{
+    text-align: left;
+    margin-left: 1rem;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
